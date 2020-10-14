@@ -108,6 +108,8 @@ RUN mkdir /var/lib/mod_tile \
  && a2enconf mod_tile && a2enconf mod_headers
 COPY apache.conf /etc/apache2/sites-available/000-default.conf
 COPY leaflet-demo.html /var/www/html/index.html
+COPY geo.json /var/www/html/geo.json
+COPY style.json /var/www/html/style.json
 RUN ln -sf /dev/stdout /var/log/apache2/access.log \
  && ln -sf /dev/stderr /var/log/apache2/error.log
 
@@ -126,4 +128,5 @@ RUN chmod +x run.sh
 ENTRYPOINT ["/run.sh"]
 CMD []
 
+LABEL org.opencontainers.image.source https://github.com/JPPMapping/superficialground-tile-server
 EXPOSE 80 5432

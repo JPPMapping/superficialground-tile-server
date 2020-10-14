@@ -1,0 +1,83 @@
+{
+   "property":"LEX_ROCK",
+   "rules":[
+      {
+         "key":"TILL-DMTN",
+         "fill":"#e0ffff",
+		 "title":"Till - Diamicton",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"SLIP-UNKN",
+         "fill":"#7594ff",
+		 "title":"Landslip - Unknown Lithology",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"SGAO-SAGR",
+         "fill":"#ffc9ff",
+		 "title":"Sand and Gravel of Uncertain Age and Origin",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"RTDU-SAGR",
+         "fill":"#ffb054",
+		 "title":"River and Terrace Deposits (Undifferentiated)",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"RMD-SAGR",
+         "fill":"#ffc9b0",
+		 "title":"Raised Marine Deposits (Undifferentiated)",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"PEAT-PEAT",
+         "fill":"#e0b075",
+		 "title":"Peat",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"LDE-CLAY",
+         "fill":"#edc994",
+		 "title":"Lacustrine Deposits (Undifferentiated) - Clay",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"GSG-SAGR",
+         "fill":"#ffc9ff",
+		 "title":"Glacial Sand and Gravel",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"CWF-DMTN",
+         "fill":"#c97536",
+		 "title":"Clay with Flints - Diamicton",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"CRAG-SAGR",
+         "fill":"#ff54b0",
+		 "title":"Crag Group - Sand and Gravel",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"BSA-SAND",
+         "fill":"#ff54b0",
+		 "title":"Blown Sand - Sand",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"BSA-SILT",
+         "fill":"#94ff36",
+		 "title":"Brickearth - Silt",
+		 "description":"Placeholder description"
+      },
+	  {
+         "key":"ALV-CLSS",
+         "fill":"#ffffb0",
+		 "title":"Alluvium - Clay, Silt and Sand",
+		 "description":"Placeholder description"
+      }
+   ]
+}
